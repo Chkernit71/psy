@@ -179,13 +179,14 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
-  padding: 10px 10px;
+  padding: 10px 8px;
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
   border-radius: 5px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  font-size: 14px;
 }
 
 .custom_nav-container .navbar-nav .nav-item .nav-link:hover{
@@ -266,25 +267,24 @@ a:focus {
 .navbar-nav .header_social {
   display: flex;
   align-items: center;
+  margin-left: 15px;
 }
 
 .navbar-nav .header_social a {
+  display: inline-flex;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   color: #ffffff;
-  border-radius: 100%;
   margin-left: 10px;
   font-size: 20px;
 }
 
-.navbar-nav .header_social a :hover{
+.navbar-nav .header_social a:hover{
   color: #2a8a6c;
 }
 
 .header_social{
-  padding-left: 20px;
+  padding-left: 0px;
 }
 @media only screen and (max-width: 991px) {
   .header_section .container {
