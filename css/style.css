@@ -179,7 +179,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
-  padding: -56px 20px;
+  padding: 10px 20px;
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
