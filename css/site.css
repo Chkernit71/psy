@@ -1188,13 +1188,18 @@ nav a:hover {
   }
 }
 
-/* Official brand assets: preserve the supplied artwork and colors. */
-.brand { flex-shrink: 0; }
-.brand-logo { width: 58px; height: 42px; object-fit: contain; }
-.footer-brand { display: inline-block; }
-.footer-logo { width: 220px; height: auto; border-radius: 4px; }
+/* Official brand assets: keep the mark compact so it supports the layout. */
+.brand { flex-shrink: 0; gap: 10px; }
+.brand-logo { width: 38px; height: 28px; object-fit: contain; }
+.brand > span { color: #2c9eaa; }
+.brand small { color: #8abfc3; }
+.footer-brand { display: inline-flex; align-items: center; gap: 10px; color: #f2f2e9; }
+.footer-logo { width: 34px; height: 25px; object-fit: contain; }
+.footer-brand > span { display: block; font-family: var(--serif); font-size: 27px; line-height: 1; }
+.footer-brand small { display: block; margin-top: 8px; color: #9bd1d2; font: 500 7px/1 var(--sans); letter-spacing: .14em; }
 @media (max-width: 650px) {
   .brand { gap: 10px; font-size: 24px; }
-  .brand-logo { width: 44px; height: 34px; }
-  .footer-logo { width: 200px; }
+  .brand-logo { width: 34px; height: 25px; }
+  .footer-logo { width: 30px; height: 22px; }
+  .footer-brand > span { font-size: 25px; }
 }
