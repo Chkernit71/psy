@@ -1187,3 +1187,14 @@ nav a:hover {
     transition:none!important;
   }
 }
+
+/* Official brand assets: preserve the supplied artwork and colors. */
+.brand { flex-shrink: 0; }
+.brand-logo { width: 58px; height: 42px; object-fit: contain; }
+.footer-brand { display: inline-block; }
+.footer-logo { width: 220px; height: auto; border-radius: 4px; }
+@media (max-width: 650px) {
+  .brand { gap: 10px; font-size: 24px; }
+  .brand-logo { width: 44px; height: 34px; }
+  .footer-logo { width: 200px; }
+}

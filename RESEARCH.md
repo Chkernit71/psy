@@ -11,3 +11,5 @@ Research checked on 7 November 2026. The website uses factual, concise descripti
 - [2M — Les Experts](https://www.youtube.com/watch?v=9pzTwAKgcvc&t=1906s): existing website’s video link retained.
 
 The conference, television and interview images were already supplied in the repository. WebP versions preserve the original imagery and improve loading. No synthetic office images or stock photographs are presented as the real practice. The university conference description and consultation formats retain the existing site’s information; no new specialties or credentials were inferred from directory categories.
+
+The official full logo (`images/afaf-loudini-official-logo.jpeg`) was supplied directly by the site owner. The header and favicon use the matching transparent logo symbol already present in the repository. Neither artwork has been redrawn or recolored.

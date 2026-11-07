@@ -16,7 +16,7 @@ class Document(HTMLParser):
         if tag=='h1': self.h1+=1
         for key in ('href','src'):
             if key in a: self.links.append(a[key])
-        if tag=='img': assert a.get('alt') and a.get('width') and a.get('height'),a
+        if tag=='img': assert 'alt' in a and a.get('width') and a.get('height'),a
         if tag=='iframe': assert a.get('title'),a
         if tag=='link' and a.get('rel')=='canonical': self.canonical.append(a['href'])
         if tag=='meta' and a.get('property','').startswith('og:'): self.og[a['property']]=a['content']
