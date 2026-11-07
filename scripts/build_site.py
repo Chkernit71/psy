@@ -18,7 +18,10 @@ def button(label='Prendre rendez-vous', href=WA, secondary=False):
 def photo(name, alt, cls='', eager=False):
     from PIL import Image
     w,h=Image.open(ROOT/'images'/name).size
-    return f'<img class="{cls}" src="/images/{name}" alt="{escape(alt)}" width="{w}" height="{h}" {"fetchpriority=\"high\"" if eager else "loading=\"lazy\""} decoding="async">'
+    src = f'/images/{name}'
+    if name == 'afaf-portrait.webp':
+        src += '?v=242cb25'
+    return f'<img class="{cls}" src="{src}" alt="{escape(alt)}" width="{w}" height="{h}" {"fetchpriority=\"high\"" if eager else "loading=\"lazy\""} decoding="async">'
 
 def header(current):
     links=''.join(f'<a href="{"/" if f=="index.html" else "/"+f}"'+(' aria-current="page"' if f==current else '')+f'>{label}</a>' for f,label in NAV)
