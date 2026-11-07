@@ -2,7 +2,7 @@
 
 Research checked on 7 November 2026. The website uses factual, concise descriptions; it does not add unverified degrees, pricing, opening hours, testimonials, or outcome guarantees.
 
-- [SUP’RH — Cellule d’écoute psychologique](https://suprh.com/cellule-decoute-psychologique/): clinical psychology, ethnopsychoanalysis, infant/adolescent psychopathology, teaching, listening service and student discussion groups. Summarized on the profile page with a direct source link.
+- [SUP’RH — Cellule d’écoute psychologique](https://suprh.com/cellule-decoute-psychologique/): clinical psychology, ethnopsychoanalysis, infant/adolescent psychopathology, teaching, listening service and student discussion groups. Summarized in the homepage introduction; the source is also linked on the interventions page.
 - [Afaf Loudini’s professional LinkedIn profile](https://ma.linkedin.com/in/afaf-loudini-447746131): professional identity and public activities.
 - [MarocPsy practitioner listing](https://marocpsy.com/praticien/352-afaf-loudini): corroborates the Maârif practice address. No directory rating or verification badge has been copied.
 - [Med.tn practitioner listing](https://www.med.tn/doctor/psychologist/casablanca/--psychologue-afaf-loudini-208643.html): corroborates the phone number and address; source of the public practitioner portrait, downloaded from https://www.med.tn/uploads/offices/208643_mme-loudini-afaf_1657280473.jpg. The original is retained as `images/afaf-loudini-portrait.jpg`, and the website serves `images/afaf-portrait.webp`. This is a real public profile image, not an AI-generated portrait. The source does not state a reuse license.
